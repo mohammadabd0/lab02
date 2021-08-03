@@ -1,3 +1,9 @@
+"use strict";
+
+let nameof = prompt("what is your name")
+
+alert("welcome to my web site: "+" "+nameof)
+
 let name = prompt("is my name mohammad abdo ")
 if (name !== null) {
     name = name.toLowerCase();
