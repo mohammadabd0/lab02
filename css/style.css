@@ -1,3 +1,26 @@
 p {
   background-color: lightblue;
+  display: block;
+  /* we should use */
+  font-size: 20px;
+}
+.c1 #d1 {
+  background-color: cadetblue;
+  display: inline-block;
+  padding: 5px 5px 5px 5px;
+  font-size: 20px;
+}
+#h2 {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 5px 5px 5px 5px;
+  display: inline-block;
+}
+.c1 #d2 #h22 {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 5px 5px 5px 5px;
+  display: inline-block;
 }
