@@ -103,6 +103,8 @@ for(let i=0;i<4;i++){
     }
     q6 =prompt("Number guessing game")
 }
+alert("the correct answer is 5")
+
 let guessed = false;
 let car = ['camry', 'hyundai', 'Kia'];
 let answer = prompt('enter a car type');
@@ -124,4 +126,5 @@ answer = prompt('enter a car type');
 }
 
 }
+alert(" the correct answer is:  "+"  "+car)
 alert("your final score is: "+ counter)
