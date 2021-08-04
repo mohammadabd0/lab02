@@ -1,6 +1,6 @@
 "use strict";
 let counter =0
-
+function f1(){
  let nameof = prompt("what is your name")
 
  alert("welcome to my web site: "+" "+nameof)
@@ -22,6 +22,11 @@ case 'y':
         break;
         
 }
+}
+f1();
+function f2(){
+    
+
 let fact = prompt("do i hate fish")
 if (fact !== null) {
     fact = fact.toLowerCase();
@@ -38,6 +43,10 @@ switch(fact){
         alert("your answer is wrong") 
         break;
 }
+}f2();
+function f3(){
+    
+
 let ltuc = prompt("do i love ltuc")
 if (ltuc !== null) {
     ltuc = ltuc.toLowerCase();
@@ -54,6 +63,8 @@ switch(ltuc){
         alert("your answer is wrong") 
         break;
 }
+}f3();
+function f4(){
 let study = prompt("do i study hard ")
 if (study !== null) {
     study = study.toLowerCase();
@@ -69,7 +80,9 @@ switch(study){
         console.log('your answer right');
         counter++
         break;
-}
+} 
+} f4();
+function f5(){
 let com = prompt("is my dream to have my own company")
 if (com !== null) {
     com = com.toLowerCase();
@@ -86,7 +99,8 @@ switch(com){
         alert("your answer is wrong") 
         break;
 }
-
+} f5();
+function f6(){
 
 let q6 =prompt("Number guessing game");
 
@@ -104,7 +118,8 @@ for(let i=0;i<4;i++){
     q6 =prompt("Number guessing game")
 }
 alert("the correct answer is 5")
-
+} f6();
+function f7(){
 let guessed = false;
 let car = ['camry', 'hyundai', 'Kia'];
 let answer = prompt('enter a car type');
@@ -128,3 +143,6 @@ answer = prompt('enter a car type');
 }
 alert(" the correct answer is:  "+"  "+car)
 alert("your final score is: "+ counter)
+} f7();
+
+
