@@ -1,0 +1,82 @@
+.c1 {
+  background-color: skyblue;
+  overflow: hidden;
+}
+.c1 a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.c1 a:hover {
+  background-color: white;
+  color: black;
+}
+img {
+  width: 1300;
+  height: 600;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.c1 .a1 {
+  float: left;
+  font-size: 20px;
+  color: black;
+}
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.column {
+  float: left;
+  width: 500px;
+  height: 500px;
+  flex: 90px;
+  padding: 40px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  display: flex;
+}
+.p1 {
+  position: absolute;
+  top: 111%;
+  left: 18%;
+
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+  color: aliceblue;
+}
+.p2 {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  color: aliceblue;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+}
+.p3 {
+  position: absolute;
+  top: 100%;
+  left: 83%;
+  color: aliceblue;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+}
